@@ -15,9 +15,9 @@
 		6EC47E1A20448E2700CDCB77 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E1920448E2700CDCB77 /* Extensions.swift */; };
 		6EC47E2420449D1B00CDCB77 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E2320449D1B00CDCB77 /* FeedCell.swift */; };
 		6EC47E2720449DA000CDCB77 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E2620449DA000CDCB77 /* Post.swift */; };
-		6EC47E292044A32800CDCB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC47E282044A32800CDCB77 /* Assets.xcassets */; };
 		6EC47E2B2044AA1500CDCB77 /* FriendRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E2A2044AA1500CDCB77 /* FriendRequestCell.swift */; };
 		6EC47E2D2044AB9D00CDCB77 /* RequestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E2C2044AB9D00CDCB77 /* RequestHeader.swift */; };
+		6EC47E2F2044D62700CDCB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC47E2E2044D62700CDCB77 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		6EC47E1920448E2700CDCB77 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6EC47E2320449D1B00CDCB77 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		6EC47E2620449DA000CDCB77 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		6EC47E282044A32800CDCB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		6EC47E2A2044AA1500CDCB77 /* FriendRequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestCell.swift; sourceTree = "<group>"; };
 		6EC47E2C2044AB9D00CDCB77 /* RequestHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeader.swift; sourceTree = "<group>"; };
+		6EC47E2E2044D62700CDCB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		6EC47E1B20449B5600CDCB77 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6EC47E282044A32800CDCB77 /* Assets.xcassets */,
+				6EC47E2E2044D62700CDCB77 /* Assets.xcassets */,
 				6E258A7A2012D9D500D8666A /* LaunchScreen.storyboard */,
 				6E258A7D2012D9D500D8666A /* Info.plist */,
 			);
@@ -197,7 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EC47E292044A32800CDCB77 /* Assets.xcassets in Resources */,
+				6EC47E2F2044D62700CDCB77 /* Assets.xcassets in Resources */,
 				6E258A7C2012D9D500D8666A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
