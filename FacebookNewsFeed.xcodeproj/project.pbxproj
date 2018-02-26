@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		6E258A722012D9D500D8666A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E258A712012D9D500D8666A /* AppDelegate.swift */; };
-		6E258A742012D9D500D8666A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E258A732012D9D500D8666A /* ViewController.swift */; };
-		6E258A792012D9D500D8666A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E258A782012D9D500D8666A /* Assets.xcassets */; };
+		6E258A742012D9D500D8666A /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E258A732012D9D500D8666A /* FeedController.swift */; };
 		6E258A7C2012D9D500D8666A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E258A7A2012D9D500D8666A /* LaunchScreen.storyboard */; };
+		6EC47E1620448AF000CDCB77 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E1520448AF000CDCB77 /* CustomTabBarController.swift */; };
+		6EC47E1820448DD100CDCB77 /* FriendRequestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E1720448DD100CDCB77 /* FriendRequestsController.swift */; };
+		6EC47E1A20448E2700CDCB77 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E1920448E2700CDCB77 /* Extensions.swift */; };
+		6EC47E2420449D1B00CDCB77 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E2320449D1B00CDCB77 /* FeedCell.swift */; };
+		6EC47E2720449DA000CDCB77 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E2620449DA000CDCB77 /* Post.swift */; };
+		6EC47E292044A32800CDCB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC47E282044A32800CDCB77 /* Assets.xcassets */; };
+		6EC47E2B2044AA1500CDCB77 /* FriendRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E2A2044AA1500CDCB77 /* FriendRequestCell.swift */; };
+		6EC47E2D2044AB9D00CDCB77 /* RequestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC47E2C2044AB9D00CDCB77 /* RequestHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E258A6E2012D9D500D8666A /* FacebookNewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookNewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E258A712012D9D500D8666A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E258A732012D9D500D8666A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6E258A782012D9D500D8666A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E258A732012D9D500D8666A /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
 		6E258A7B2012D9D500D8666A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E258A7D2012D9D500D8666A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC47E1520448AF000CDCB77 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		6EC47E1720448DD100CDCB77 /* FriendRequestsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestsController.swift; sourceTree = "<group>"; };
+		6EC47E1920448E2700CDCB77 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6EC47E2320449D1B00CDCB77 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		6EC47E2620449DA000CDCB77 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6EC47E282044A32800CDCB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		6EC47E2A2044AA1500CDCB77 /* FriendRequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestCell.swift; sourceTree = "<group>"; };
+		6EC47E2C2044AB9D00CDCB77 /* RequestHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +66,76 @@
 		6E258A702012D9D500D8666A /* FacebookNewsFeed */ = {
 			isa = PBXGroup;
 			children = (
-				6E258A712012D9D500D8666A /* AppDelegate.swift */,
-				6E258A732012D9D500D8666A /* ViewController.swift */,
-				6E258A782012D9D500D8666A /* Assets.xcassets */,
+				6EC47E2120449BD600CDCB77 /* AppDelegate */,
+				6EC47E1B20449B5600CDCB77 /* Resources */,
+				6EC47E2220449C8E00CDCB77 /* Extensions */,
+				6EC47E1F20449BA800CDCB77 /* Models */,
+				6EC47E2520449D6800CDCB77 /* Views */,
+				6EC47E1E20449B9B00CDCB77 /* Controllers */,
+			);
+			path = FacebookNewsFeed;
+			sourceTree = "<group>";
+		};
+		6EC47E1B20449B5600CDCB77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6EC47E282044A32800CDCB77 /* Assets.xcassets */,
 				6E258A7A2012D9D500D8666A /* LaunchScreen.storyboard */,
 				6E258A7D2012D9D500D8666A /* Info.plist */,
 			);
-			path = FacebookNewsFeed;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6EC47E1E20449B9B00CDCB77 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E258A732012D9D500D8666A /* FeedController.swift */,
+				6EC47E1520448AF000CDCB77 /* CustomTabBarController.swift */,
+				6EC47E1720448DD100CDCB77 /* FriendRequestsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6EC47E1F20449BA800CDCB77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EC47E2620449DA000CDCB77 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EC47E2020449BB600CDCB77 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6EC47E2320449D1B00CDCB77 /* FeedCell.swift */,
+				6EC47E2A2044AA1500CDCB77 /* FriendRequestCell.swift */,
+				6EC47E2C2044AB9D00CDCB77 /* RequestHeader.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6EC47E2120449BD600CDCB77 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6E258A712012D9D500D8666A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6EC47E2220449C8E00CDCB77 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6EC47E1920448E2700CDCB77 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EC47E2520449D6800CDCB77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EC47E2020449BB600CDCB77 /* Cells */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,8 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC47E292044A32800CDCB77 /* Assets.xcassets in Resources */,
 				6E258A7C2012D9D500D8666A /* LaunchScreen.storyboard in Resources */,
-				6E258A792012D9D500D8666A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E258A742012D9D500D8666A /* ViewController.swift in Sources */,
+				6EC47E1A20448E2700CDCB77 /* Extensions.swift in Sources */,
+				6E258A742012D9D500D8666A /* FeedController.swift in Sources */,
+				6EC47E1820448DD100CDCB77 /* FriendRequestsController.swift in Sources */,
+				6EC47E2B2044AA1500CDCB77 /* FriendRequestCell.swift in Sources */,
+				6EC47E2D2044AB9D00CDCB77 /* RequestHeader.swift in Sources */,
 				6E258A722012D9D500D8666A /* AppDelegate.swift in Sources */,
+				6EC47E1620448AF000CDCB77 /* CustomTabBarController.swift in Sources */,
+				6EC47E2720449DA000CDCB77 /* Post.swift in Sources */,
+				6EC47E2420449D1B00CDCB77 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +347,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FacebookNewsFeed/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FacebookNewsFeed/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucas.FacebookNewsFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,7 +362,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FacebookNewsFeed/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FacebookNewsFeed/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucas.FacebookNewsFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
