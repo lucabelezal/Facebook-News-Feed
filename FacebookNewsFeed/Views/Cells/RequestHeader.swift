@@ -28,7 +28,7 @@ class RequestHeader: UITableViewHeaderFooterView {
     
     let bottomBorderView: UIView = {
         let view = UIView()
-        view.backgroundColor = ColorPalette.topBorderColor
+        view.backgroundColor = ColorPalette.borderColorGrey
         return view
     }()
     

@@ -22,7 +22,7 @@ enum ColorPalette {
     
     static let facebookGrey = UIColor.rgb(red: 226, green: 228, blue: 232)
     
-    static let topBorderColor = UIColor.rgb(red: 229, green: 231, blue: 235)
+    static let borderColorGrey = UIColor.rgb(red: 229, green: 231, blue: 235)
 }
 
 extension UIColor {
